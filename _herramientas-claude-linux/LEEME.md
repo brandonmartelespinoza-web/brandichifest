@@ -29,3 +29,5 @@ Requisitos: `pip install pymupdf pillow`; Playwright de Node.
 - `svgshot.mjs frag.html prefijo` → captura cada esquema SVG propio para revisar que ningún rótulo se corte o se pise.
 - `cobertura20.py` → busca cada ítem del sílabo en el texto de la guía (83/83).
 - `overflow.mjs` → encuentra qué elemento genera scroll horizontal a 375 px.
+- `rehacer_par20.py` → reemplaza en la guía ya ensamblada (con imágenes incrustadas) la pestaña Pared abdominal, el aviso y el test final por los fragmentos de `frag-sem20/`, y renumera figuras/initDrag. Sirve para rehacer una pestaña sin el chasis de SEM 17 que necesita `armar20.py`.
+- El PDF del apunte *Pared abdominal* (10 MB) no baja por el conector de Drive (`download_file_content` corta la sesión); `read_file_content` sí da el texto. La pestaña se rehízo con ese texto y esquemas SVG propios.

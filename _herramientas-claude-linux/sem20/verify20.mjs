@@ -159,7 +159,7 @@ for (const t of TABS) {
   for (let i = 0; i < n; i++) { await p2.locator(`#tab-${t} .fc`).nth(i).click(); flips++; }
 }
 const flipped = await p2.evaluate(() => document.querySelectorAll('.fc.flipped').length);
-ok(flipped === flips && flips === 180, `flashcards dadas vuelta: ${flipped}/${flips}`);
+ok(flipped === flips && flips === 184, `flashcards dadas vuelta: ${flipped}/${flips}`);
 ok(err2.length === 0, `consola sin errores (pestaña nueva): ${err2.length} ${err2.slice(0, 3).join(' | ')}`);
 
 await browser.close();
