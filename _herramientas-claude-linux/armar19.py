@@ -118,6 +118,17 @@ dds = re.findall(r'<div class="dragdrop" id="(dd-[a-z0-9]+)"', html)
 html = re.sub(r"\[('dd-[a-z0-9]+',?)*\]\.forEach\(initDrag\)",
               '[' + ','.join(f"'{d}'" for d in dds) + '].forEach(initDrag)', html)
 
+# ---------- incrustar imágenes (archivo único, funciona aunque se separe de img/) ----------
+import base64
+IMGDIR = os.path.join(os.path.dirname(OUT), 'img')
+def emb(m):
+    f = m.group(1)
+    data = open(os.path.join(IMGDIR, f), 'rb').read()
+    mime = 'image/png' if f.endswith('.png') else 'image/jpeg'
+    return 'src="data:%s;base64,%s" data-file="%s"' % (mime, base64.b64encode(data).decode(), f)
+if '--embed' in sys.argv:
+    html = re.sub(r'src="img/([^"]+)"', emb, html)
+
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 open(OUT, 'w', encoding='utf8').write(html)
 print('OK', OUT, len(html) // 1024, 'KB', '| figuras', n, '| dragdrops', dds)

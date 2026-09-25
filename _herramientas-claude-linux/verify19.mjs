@@ -82,6 +82,7 @@ const persisted = await page.evaluate((colors) => {
 ok(persisted.every(Boolean), `semáforos persisten tras reload: ${persisted.filter(Boolean).length}/${persisted.length}`);
 const pct = await page.evaluate(() => [...document.querySelectorAll('.pt-pct')].map(e => e.textContent));
 ok(pct.every(p => p === '100%'), `progress trackers: ${pct.join(' ')}`);
+await page.waitForTimeout(700); // la barra tiene transition .5s: medir cuando terminó la animación
 const barW = await page.evaluate(() => document.getElementById('pt-par-bar').getBoundingClientRect().width);
 ok(barW > 50, `barra de progreso visible (ancho ${Math.round(barW)} px)`);
 

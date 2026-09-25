@@ -14,3 +14,10 @@ Las rutas internas apuntan a `/home/user/work/`; ajustalas si las reusás en otr
 | `verify19.mjs` | Verificación en Chromium con clicks reales: pestañas, mini-tests, semáforos + reload, drag-drops, test 40/40, scroll a 1280 y 375 px, consola |
 
 Requisitos: `pip install pymupdf pillow`; Playwright de Node.
+
+## Revisión visual de imágenes (agregado)
+
+- `python3 armar19.py --embed` → incrusta todas las imágenes dentro del HTML (base64). La guía queda en **un solo archivo** que se ve bien aunque se mueva o se suba a Drive sin la carpeta `img/`. Sin `--embed`, el HTML depende de `img/` al lado.
+- `node audit19.mjs <carpeta>` → saca una captura de cada figura tal como se ve en la guía e indica si alguna se muestra ampliada por encima de su resolución original.
+- `python3 fix19.py [nombres]` → rehace los recortes corregidos desde el PDF original (resolución nativa): saca barras de videollamada, bordes negros, epígrafes cortados.
+- `python3 ruler.py salida.png 0.3 img...` → franja inferior de cada imagen con reglas cada 10 px, para decidir dónde recortar.
