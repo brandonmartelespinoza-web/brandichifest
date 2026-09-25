@@ -1,0 +1,42 @@
+cap-capas-esquema   | digestivo1.pdf | c | 8 280 82 740 335 3.4
+cap-tubo-general    | digestivo1.pdf | c | 9 50 32 745 408 2.1
+cap-capas-micro     | digestivo1.pdf | c | 10 41 0 759 445 1.4
+cap-motilidad       | motilidad.pdf | c | 1 80 318 532 620 2.2
+boc-labio           | digestivo1.pdf | c | 3 480 10 770 228 2.2
+boc-waldeyer        | digestivo1.pdf | c | 3 480 248 790 426 3.4
+boc-cavidad-netter  | boca_esof_estom.pdf | x | 20
+boc-suelo-netter    | boca_esof_estom.pdf | x | 28
+len-esquema         | digestivo1.pdf | c | 4 62 150 348 412 2.6
+len-micro           | digestivo1.pdf | c | 5 66 80 546 396 2.0
+len-fungiforme      | digestivo1.pdf | x | 60
+len-filiformes      | digestivo1.pdf | x | 62
+len-corpusculo-micro| digestivo1.pdf | c | 6 48 106 376 292 2.4
+len-corpusculo-esq  | digestivo1.pdf | c | 6 378 84 760 292 2.8
+len-netter          | boca_esof_estom.pdf | x | 37
+sal-netter          | boca_esof_estom.pdf | x | 45
+eso-faringe         | digestivo1.pdf | c | 7 255 155 596 426 2.2
+eso-micro1          | digestivo1.pdf | c | 11 430 14 746 304 2.4
+eso-micro2          | digestivo1.pdf | c | 12 85 233 391 432 2.4
+eso-insitu          | boca_esof_estom.pdf | x | 71
+eso-topografia      | boca_esof_estom.pdf | x | 78
+eso-arterias        | boca_esof_estom.pdf | x | 85
+eso-venas           | boca_esof_estom.pdf | x | 92
+per-pared-post      | peritoneo.pdf | x | 25
+est-forma           | digestivo1.pdf | c | 13 416 43 732 384 2.6
+est-insitu          | boca_esof_estom.pdf | x | 123
+est-mucosa-netter   | boca_esof_estom.pdf | x | 130
+est-panoramica      | digestivo1.pdf | c | 14 0 0 800 450 1.1
+est-mucosa-endosc   | digestivo1.pdf | c | 15 400 46 727 344 2.2
+est-mucosa-micro    | digestivo1.pdf | c | 15 57 160 383 378 2.6
+est-epitelio        | digestivo1.pdf | c | 16 374 70 744 388 2.2
+est-glandulas       | digestivo1.pdf | c | 17 108 52 710 412 1.8
+est-fundica         | digestivo1.pdf | c | 18 340 46 735 396 2.6
+est-parietal-princ  | digestivo1.pdf | c | 19 240 8 742 414 2.2
+est-parietal-esq    | digestivo1.pdf | c | 20 170 35 744 412 2.0
+est-moco            | digestivo1.pdf | c | 21 288 46 746 404 2.0
+est-principal       | digestivo1.pdf | c | 22 346 68 755 362 2.4
+est-enteroendocrina | digestivo1.pdf | c | 24 316 38 752 312 3.1
+est-pilorica        | digestivo1.pdf | c | 25 57 38 755 408 1.9
+est-ulcera          | digestivo1.pdf | c | 27 64 62 752 397 2.0
+# eso-micro1: crop (9,7,753,H); eso-micro2: crop (6,10,728,H) a mano tras ex20 (texto y marco de diapositiva)
+# est-parietal-princ: blanqueado el encabezado punteado de la diapositiva (0,0,634,50)

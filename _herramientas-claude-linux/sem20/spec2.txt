@@ -1,0 +1,71 @@
+cap-capas-esquema   | digestivo1.pdf | c | 8 274 82 740 335 3.4
+len-esquema         | digestivo1.pdf | c | 4 20 150 348 412 2.6
+est-panoramica      | digestivo1.pdf | c | 14 0 0 800 392 1.1
+est-mucosa-micro    | digestivo1.pdf | c | 15 57 160 383 394 2.6
+est-parietal-cel    | digestivo1.pdf | c | 20 488 35 744 291 2.2
+est-hcl-mecanismo   | digestivo1.pdf | c | 20 170 200 412 413 2.9
+est-ulcera          | digestivo1.pdf | c | 27 64 86 752 397 2.0
+est-regiones-gland  | digestivo1.pdf | c | 25 57 39 471 178 3.2
+est-pilorica-micro  | digestivo1.pdf | c | 25 362 194 755 408 1.6
+int-sem             | digestivo1.pdf | c | 28 303 64 753 344 2.4
+int-superficie      | digestivo1.pdf | c | 29 30 34 745 414 1.9
+int-vellosidad      | digestivo1.pdf | c | 30 199 57 638 316 2.2
+int-kerckring       | digestivo1.pdf | c | 31 338 43 735 275 2.4
+int-mucosa-esq      | digestivo1.pdf | c | 32 134 70 666 358 2.1
+int-epitelio        | digestivo1.pdf | c | 33 431 36 747 235 2.0
+int-vellosidades    | digestivo1.pdf | c | 34 0 0 800 450 1.0
+int-paneth          | digestivo1.pdf | c | 35 119 128 472 406 1.8
+int-lamina-propia   | digestivo1.pdf | c | 37 357 120 742 410 2.0
+int-brunner         | digestivo1.pdf | c | 38 84 165 403 405 1.6
+int-muscular        | digestivo1.pdf | c | 39 170 120 605 401 1.6
+int-duodeno         | digestivo1.pdf | c | 40 389 171 704 400 2.0
+int-yeyuno-ileon    | digestivo1.pdf | c | 41 336 56 716 404 2.2
+int-peyer           | digestivo1.pdf | c | 42 74 40 743 403 1.8
+int-celiaca         | digestivo1.pdf | c | 43 45 218 780 412 1.5
+int-grueso-esq      | digestivo1.pdf | c | 44 165 137 651 410 2.0
+int-grueso-mucosa   | digestivo1.pdf | c | 45 57 154 753 412 1.6
+int-grueso-capas    | digestivo1.pdf | c | 46 403 133 734 400 2.0
+int-apendice        | digestivo1.pdf | c | 47 337 148 731 412 2.4
+int-duodeno-insitu  | intestino_colon.pdf | x | 18
+int-duodeno-mucosa  | intestino_colon.pdf | x | 24
+int-duodeno-arterias| intestino_colon.pdf | x | 29
+int-ileocecal       | intestino_colon.pdf | x | 34
+int-ileocecal2      | intestino_colon.pdf | x | 39
+int-id-arterias     | intestino_colon.pdf | x | 44
+int-id-venas        | intestino_colon.pdf | x | 49
+int-ig-mucosa       | intestino_colon.pdf | x | 58
+int-ig-arterias     | intestino_colon.pdf | x | 67
+int-ig-venas        | intestino_colon.pdf | x | 72
+sal-submaxilar      | salivales.pdf | c | 2 293 108 532 283 3.0
+sal-sialo-parotida  | salivales.pdf | c | 2 293 552 533 677 2.4
+sal-sialo-submand   | salivales.pdf | c | 3 305 295 531 483 2.4
+sal-sialolito       | salivales.pdf | c | 4 60 505 266 709 2.6
+sal-secrecion-fig   | sist_digestivo_II.pdf | c | 2 60 229 612 766 1.8
+sal-glandulas-fig   | sist_digestivo_II.pdf | c | 1 60 437 612 792 1.8
+len-esquema         | digestivo1.pdf | c | 4 74 150 348 412 2.6
+est-parietal-cel    | digestivo1.pdf | c | 20 492 35 744 291 2.2
+sal-glandulas-fig   | sist_digestivo_II.pdf | c | 1 60 466 612 792 1.8
+sal-secrecion-fig   | sist_digestivo_II.pdf | c | 2 160 362 490 645 2.6
+len-esquema         | digestivo1.pdf | c | 4 62 150 348 412 2.6
+sal-glandulas-fig   | sist_digestivo_II.pdf | c | 1 150 528 440 792 2.4
+int-celiaca         | digestivo1.pdf | c | 43 45 218 780 422 1.5
+len-esquema         | digestivo1.pdf | c | 4 62 150 348 412 2.6 | w 0 0 9 682 9 440 42 472
+sal-sialotc-parotida| salivales.pdf | c | 3 305 295 531 483 2.4
+sal-sialo-submand   | salivales.pdf | c | 4 60 505 266 709 2.6
+sal-sialolito       | salivales.pdf | c | 7 57 538 281 684 2.6
+# est-insitu: recortado arriba (y0=272) a mano tras ex20, ver sesión
+int-superficie      | digestivo1.pdf | c | 29 62 24 739 414 1.9
+# int-superficie: tapado a mano el título de la diapositiva (y<21, x>290) tras ex20
+int-celiaca         | digestivo1.pdf | c | 43 45 218 780 430 1.5
+int-vellosidades    | digestivo1.pdf | c | 34 62 0 739 450 1.3
+int-vellosidades    | digestivo1.pdf | c | 34 62 0 739 418 1.3
+est-panoramica      | digestivo1.pdf | c | 14 62 0 739 392 1.3
+int-celiaca         | digestivo1.pdf | c | 43 46 219 778 426 1.5
+int-sem             | digestivo1.pdf | c | 28 307 64 753 344 2.4
+# int-sem: crop x<1036; int-celiaca: crop x<1040, y<H-4 (restos de pestaña/línea de diapositiva) tras ex20+untab
+int-celiaca         | digestivo1.pdf | c | 43 46 219 778 429 1.5
+# int-celiaca: compuesta a mano con las imágenes nativas xref 232 y 233 apiladas + rótulos del original (el fondo de la diapositiva tenía una línea que tachaba el rótulo)
+int-grueso-mucosa   | digestivo1.pdf | c | 45 57 154 740 381 1.6
+# int-grueso-mucosa: crop (10, bajo la línea verde, W, H) tras ex20+untab
+int-superficie      | digestivo1.pdf | c | 29 18 24 739 414 1.52
+# int-superficie: x0=18 (rótulo Repliegue completo), luego crop (50,0,W,589) y blanqueo del título/marco arriba

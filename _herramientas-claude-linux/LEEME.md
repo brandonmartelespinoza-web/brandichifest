@@ -21,3 +21,11 @@ Requisitos: `pip install pymupdf pillow`; Playwright de Node.
 - `node audit19.mjs <carpeta>` → saca una captura de cada figura tal como se ve en la guía e indica si alguna se muestra ampliada por encima de su resolución original.
 - `python3 fix19.py [nombres]` → rehace los recortes corregidos desde el PDF original (resolución nativa): saca barras de videollamada, bordes negros, epígrafes cortados.
 - `python3 ruler.py salida.png 0.3 img...` → franja inferior de cada imagen con reglas cada 10 px, para decidir dónde recortar.
+
+## Semana 20 (carpeta `sem20/`)
+
+- `ex20.py spec.txt [nombres]` → extrae figuras (x = imagen nativa, c = render de región) a `raw/`; admite una 5.ª columna `w x0 y0 x1 y1` para tapar restos.
+- `untab.py` → borra las pestañas marrones de la plantilla del teórico que quedan en los recortes.
+- `svgshot.mjs frag.html prefijo` → captura cada esquema SVG propio para revisar que ningún rótulo se corte o se pise.
+- `cobertura20.py` → busca cada ítem del sílabo en el texto de la guía (83/83).
+- `overflow.mjs` → encuentra qué elemento genera scroll horizontal a 375 px.
