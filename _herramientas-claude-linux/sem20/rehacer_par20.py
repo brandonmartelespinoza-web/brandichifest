@@ -37,5 +37,15 @@ dds = re.findall(r'<div class="dragdrop" id="(dd-[a-z0-9]+)"', h)
 h = re.sub(r"\[('dd-[a-z0-9]+',?)*\]\.forEach\(initDrag\)",
            '[' + ','.join(f"'{d}'" for d in dds) + '].forEach(initDrag)', h)
 
+# 5) incrustar las imágenes nuevas (las viejas ya están en base64)
+import base64
+IMGDIR = os.path.join(os.path.dirname(GUIA), 'img')
+def emb(m):
+    f = m.group(1)
+    data = open(os.path.join(IMGDIR, f), 'rb').read()
+    mime = 'image/png' if f.endswith('.png') else 'image/jpeg'
+    return 'src="data:%s;base64,%s" data-file="%s"' % (mime, base64.b64encode(data).decode(), f)
+h = re.sub(r'src="img/([^"]+)"', emb, h)
+
 open(GUIA, 'w', encoding='utf8').write(h)
 print('OK', GUIA, len(h) // 1024, 'KB | figuras', n, '| dragdrops', len(dds))
